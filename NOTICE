@@ -1,0 +1,8 @@
+voicerig
+Copyright 2026 the voicerig authors
+
+Prior art and credits (no code copied from any of them):
+- Android's documented AudioPolicy / AudioMixingRule / AudioMix system APIs (AOSP, Apache-2.0).
+- scrcpy (Apache-2.0, Genymobile): the technique of running Java as the adb shell user through app_process and of
+  building a minimal ActivityThread/system Context by reflection.
+- VirtuMic (MIT, IndiDevs): read as a reference for how an INJECTOR mix is configured.

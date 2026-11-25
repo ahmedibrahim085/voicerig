@@ -1,0 +1,11 @@
+{
+  "app_uid": 10000,
+  "rate": 48000,
+  "steps": [
+    {"sleep": 1},
+    {"say": "how much money do I have in my wallet", "voice": "Samantha", "hold": {"x": 938, "y": 2046}},
+    {"wait_reply": 20},
+    {"say": "and send ten thousand francs to Awa", "voice": "Samantha", "hold": {"x": 938, "y": 2046}},
+    {"wait_reply": 20}
+  ]
+}
